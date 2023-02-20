@@ -28,7 +28,7 @@ Subir a Infraestrutura observando os Logs:
 
 ---
 
-Se você definir "d" como $1(Primeiro argumento depois do comando), não será em background.
+Se você definir _"d"_ como $1(Primeiro argumento depois do comando), não será executado em background.
 
 Depois acesse no navegador > localhost:8000
 
