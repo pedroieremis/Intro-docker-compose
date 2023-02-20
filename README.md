@@ -1,19 +1,35 @@
-# teste-docker-compose
+# Introdução ao Docker Compose
 
-Repositório para testar configuração inicial de containers com o docker-compose
+Repositório para testar configuração inicial de containers implementados a partir do __docker-compose.__
 
-#### Siga os passos
+---
 
+#### __Siga os passos__
+
+Clonar o repositório localmente:
 ```shell
-git clone https://github.com/PedroIeremis/teste-docker-compose.git
+git clone https://github.com/pedroieremis/Intro-docker-compose.git
+```
 
-cd teste-docker-compose
+Navegar até o repositório clonado:
+```shell
+cd Intro-docker-compose/
+```
 
+Subir a Infraestrutura em Background:
+```shell
 ./up-service.sh
-Dessa forma acima, vai executar em background. Se você definir "d" como $1, não será em background. Por exemplo:
+```
+
+Subir a Infraestrutura observando os Logs:
+```shell
 ./up-service.sh d
 ```
 
+---
+
+Se você definir "d" como $1(Primeiro argumento depois do comando), não será em background.
+
 Depois acesse no navegador > localhost:8000
 
-_Provavelmente será necessário mudar a configuração do pulo de linha. Ele vai estar como CRLF, na hora do "git push" muda-se para tal. No VsCode, abra o shell script e lá em baixo mude para LF, onde estiver o campo CRLF._
+_Provavelmente será necessário mudar a configuração do pulo de linha. Ele vai estar como CRLF. No momento do comando "git push" muda-se para tal. No VsCode, abra o shell script e lá em baixo mude de CRLF para LF, onde estiver o campo CRLF ao lado da codificação de formataçãao do texto e da extensão do arquivo._
