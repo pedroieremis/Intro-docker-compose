@@ -8,12 +8,12 @@ Repositório para testar configuração inicial de containers implementados a pa
 
 Clonar o repositório localmente:
 ```shell
-git clone https://github.com/pedroieremis/Intro-docker-compose.git
+git clone https://github.com/pedroieremis/Introducao-Docker-Compose.git
 ```
 
 Navegar até o repositório clonado:
 ```shell
-cd Intro-docker-compose/
+cd Introducao-Docker-Compose/
 ```
 
 Subir a Infraestrutura em Background:
